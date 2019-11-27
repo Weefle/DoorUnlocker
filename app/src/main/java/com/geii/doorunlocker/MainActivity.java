@@ -48,9 +48,6 @@ public class MainActivity extends AppCompatActivity {
 
         private static final Uri SMS_URI_OUTBOX = Uri.parse("content://sms/sent");
 
-        public PlaceholderFragment()
-        {
-        }
 
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
